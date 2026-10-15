@@ -33,5 +33,6 @@ venv/
 .DS_Store
 
 /datasets/
+/examples/1/
 *.sft
 *.pt2
