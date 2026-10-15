@@ -6,6 +6,7 @@ Czytaj temat potrzebny zadaniu; aktualizuj dokumentację automatycznie według `
 |---|---|
 | [README](../README.md) | Uruchomienie, struktura i obsługa środowiska |
 | [AGENTS](../AGENTS.md) | Trwałe reguły współpracy i utrzymywania wiedzy |
+| [GPU Dockera](nvidia-host.md) | Instalacja Toolkit na hoście i błąd `no known GPU vendor found` |
 | [Walidacja](../VALIDATION.md) | Datowane wyniki testów, nie bieżący monitoring |
 | [Modele i nodes](models-and-nodes.md) | Faktycznie zainstalowane komponenty i odtwarzanie |
 | [Workflow](workflows.md) | Format plików i zapis recept generacji |

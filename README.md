@@ -27,6 +27,8 @@ docker run --rm --gpus all nvidia/cuda:12.8.1-runtime-ubuntu24.04 nvidia-smi
 
 Ten drugi test musi przejść przed otwarciem devcontainera. Błąd `no known GPU vendor
 found` oznacza brak konfiguracji Toolkit/CDI na hoście, a nie brak PyTorch.
+Pełna procedura instalacji brakującego Toolkit na hoście i diagnoza błędu:
+[GPU Dockera — konfiguracja hosta](docs/nvidia-host.md).
 Nie instaluj sterownika NVIDIA w kontenerze.
 
 ## Installation
