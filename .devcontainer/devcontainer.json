@@ -1,0 +1,15 @@
+{
+  "name": "ComfyUI CUDA development",
+  "build": {"dockerfile": "Dockerfile", "context": ".."},
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/comfyui,type=bind",
+  "workspaceFolder": "/workspaces/comfyui",
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true,
+  "runArgs": ["--gpus=all", "--shm-size=8g"],
+  "init": true,
+  "forwardPorts": [8188],
+  "portsAttributes": {"8188": {"label": "ComfyUI", "onAutoForward": "notify"}},
+  "postCreateCommand": "bash scripts/bootstrap.sh",
+  "postStartCommand": "bash scripts/comfy-start.sh",
+  "customizations": {"vscode": {"settings": {"python.defaultInterpreterPath": "/opt/venv/bin/python"}}}
+}

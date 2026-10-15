@@ -1,0 +1,6 @@
+**
+!.devcontainer/
+!.devcontainer/Dockerfile
+!.devcontainer/versions.env
+!.devcontainer/torch-constraints.txt
+!.devcontainer/requirements.lock
