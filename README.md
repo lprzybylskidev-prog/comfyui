@@ -154,3 +154,12 @@ Powrót: przywróć poprzednie piny i przebuduj. Modele, nodes i dane pozostają
 w workspace; nowe wersje mogą migrować bazę `user/`, więc przed aktualizacją zrób jej kopię.
 
 Wyniki rzeczywistych testów i ograniczenia: [VALIDATION.md](VALIDATION.md).
+
+## Praca z Codexem
+
+Instrukcje projektu: [AGENTS.md](AGENTS.md). Mapa wiedzy: [docs/README.md](docs/README.md).
+Codex ma sam aktualizować dokumentację przy trwałych ustaleniach; główny plik zasad
+pozostaje krótki, a szczegóły modeli, workflow i stylu gry trafiają do dokumentów tematycznych.
+Lokalne skills w `.agents/skills/` obejmują środowisko ComfyUI, workflow przez API
+i spójne assety gry 2D. Możesz wywołać np. `$game-assets-2d`; zwykle wystarczy opisać zadanie.
+Styl gry ustalimy osobno — obecny brief nie narzuca estetyki.
